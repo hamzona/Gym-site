@@ -7,12 +7,13 @@
   background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 70px;
-  color: rgb(0, 0, 0);
+  color: orange;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-shadow: 4px 4px 4px rgb(255, 255, 255);
 }
@@ -38,9 +39,9 @@
 }
 
 .ol-gym-machines {
+  list-style-type: armenian;
   padding: 30px;
 }
-
 .third-paragraph {
   width: 400px;
 }
