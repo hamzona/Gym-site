@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.nav-ul {
+  position: relative;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(15, 15, 15);
+}
+.nav-tag {
+  color: orange;
+  text-decoration: none;
+}
+.option {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+  list-style-type: none;
+}
+.nav-tag {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-tag :hover {
+  background-color: rgb(34, 34, 34);
+}
+
+.contact-container {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 70px;
+  background-color: rgb(53, 52, 52);
+}
+.contact-container a {
+  color: rgb(14, 97, 170);
+  text-decoration: none;
+}
+.contact {
+  margin: 10px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.contact.mail {
+  display: inline-flex;
+}
