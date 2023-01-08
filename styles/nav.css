@@ -19,6 +19,16 @@
   align-items: center;
   background-color: rgb(15, 15, 15);
 }
+
+.logo {
+  width: 60px;
+}
+.option.logo {
+  width: 100px;
+}
+.shadow-logo {
+  box-shadow: 5px 5px 5px 2px orange;
+}
 .nav-tag {
   color: orange;
 }
