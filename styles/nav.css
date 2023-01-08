@@ -4,7 +4,6 @@
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-
 .container {
   height: 100vh;
   width: 100vw;
@@ -22,7 +21,6 @@
 }
 .nav-tag {
   color: orange;
-  text-decoration: none;
 }
 .option {
   display: flex;
@@ -34,10 +32,8 @@
 .nav-tag {
   display: flex;
   align-items: center;
-
-  height: 100%;
   text-decoration: none;
-  list-style-type: none;
+  height: 100%;
 }
 .nav-tag :hover {
   background-color: rgb(34, 34, 34);
@@ -51,7 +47,7 @@
   justify-items: center;
   align-items: center;
   padding: 70px;
-  background-color: rgb(53, 52, 52);
+  background-color: rgb(53, 53, 53);
 }
 .contact-container a {
   color: rgb(14, 97, 170);
@@ -65,4 +61,19 @@
 }
 .contact.mail {
   display: inline-flex;
+}
+
+.nav-ul {
+  animation: load-nav 1s;
+}
+@keyframes load-nav {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

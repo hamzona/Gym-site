@@ -42,6 +42,81 @@
   list-style-type: armenian;
   padding: 30px;
 }
+.ol-gym-machines li {
+  list-style: decimal-leading-zero;
+}
 .third-paragraph {
   width: 400px;
+}
+ul {
+  margin: 0;
+}
+.img-container {
+  width: 100vw;
+  height: 600px;
+  background: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  padding: 120px 0px;
+}
+.img-button {
+  position: absolute;
+  top: 300px;
+  font-size: 35px;
+  background-color: rgb(41, 41, 41);
+  color: rgb(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 40px;
+  cursor: pointer;
+}
+
+.img-button:hover,
+.img-button:focus {
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+}
+.img-button.right {
+  right: 20px;
+}
+.img-button.left {
+  left: 20px;
+}
+
+.imges {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 600px;
+  opacity: 0;
+  transition: 400ms;
+}
+.show {
+  opacity: 1;
+}
+
+.third-paragraph {
+  width: 100vw;
+
+  padding: 30px;
+  background-image: url("../img/Workout.webp");
+  color: rgb(223, 217, 217);
+}
+
+.second-text {
+  background-color: rgb(0, 0, 0, 0.8);
+  width: 500px;
+  padding: 30px;
+}
+.razmak {
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(165, 107, 0);
 }
