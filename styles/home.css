@@ -13,11 +13,13 @@
   justify-content: center;
   align-items: center;
   font-size: 70px;
-  color: orange;
+  color: wheat;
   font-family: Georgia, "Times New Roman", Times, serif;
-  text-shadow: 4px 4px 4px rgb(255, 255, 255);
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
-
+body {
+  background-color: rgb(34, 34, 34);
+}
 .second-paragraph {
   display: flex;
   justify-content: space-around;
@@ -34,7 +36,7 @@
 .text-gym {
   width: 400px;
   background-color: rgb(41, 41, 41);
-  color: white;
+  color: wheat;
   padding: 50px;
 }
 
@@ -107,7 +109,7 @@ ul {
 
   padding: 30px;
   background-image: url("../img/Workout.webp");
-  color: rgb(223, 217, 217);
+  color: wheat;
 }
 
 .second-text {

@@ -28,12 +28,12 @@ setInterval(() => {
   if (i > slides.length - 1) {
     i = 0;
   }
-  console.log(i);
   slides[i].classList.add("show");
-}, 5000);
+}, 3500);
 
 function displayNone() {
   slides.forEach((slide) => {
     slide.classList.remove("show");
   });
 }
+/***************************** */

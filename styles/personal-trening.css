@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+.container-personal-trening {
+  background: url("/img-personal-trening/NillumbikShireCouncil_RevivePT_222.jpg");
+  background-blend-mode: darken;
+  background-color: rgb(0, 0, 0, 0.5);
+  background-size: cover;
+
+  width: 100vw;
+  height: 700px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 40px;
+  color: wheat;
+}
+
+.under-title {
+  animation: on-load-anim 1s;
+}
+@keyframes on-load-anim {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0%);
+
+    opacity: 1;
+  }
+}
+
+.container-group-traning {
+  width: 90%;
+  height: 450px;
+  padding: 100px;
+}
+
+.cont-text {
+  color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.group-traning {
+  font-size: 50px;
+}
+.cont-text ul {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont-text ul li {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.healthy-diet-cont {
+  width: 100vw;
+  height: 600px;
+  background: url("/img-personal-trening/food-scaled.jpg");
+  background-color: rgb(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: wheat;
+}
+
+.cont-text-health {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.text-healthy-diet {
+  font-size: 20px;
+  color: wheat;
+  width: 500px;
+  text-align: center;
+}
+
+.protein-img {
+  width: 700px;
+  height: 500px;
+  background: url("/img-personal-trening/6-types-protein_2048x.webp");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  display: flex;
+  font-size: 40px;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.protein-cont {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.protein-text {
+  padding: 30px;
+  background-color: rgb(0, 0, 0, 0.2);
+  color: wheat;
+  width: 500px;
+}
