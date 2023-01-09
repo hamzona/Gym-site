@@ -34,20 +34,20 @@ body {
 }
 
 .one {
-  background-image: url("/img-about/5dbb01fc045a3106cb2daf78.webp");
+  background-image: url("../img-about/5dbb01fc045a3106cb2daf78.webp");
 }
 
 .two {
-  background-image: url("/img-about/bodybuilder-posing-fitness-muscled-man-dark-scene_136403-4206.webp");
+  background-image: url("../img-about/bodybuilder-posing-fitness-muscled-man-dark-scene_136403-4206.webp");
 }
 .three {
-  background-image: url("/img-about/natural_bodybuilding_2000x.jpg");
+  background-image: url("../img-about/natural_bodybuilding_2000x.jpg");
 }
 .four {
-  background-image: url("/img-about/Nimai-Delgado-Profile.jpg");
+  background-image: url("../img-about/Nimai-Delgado-Profile.jpg");
 }
 .five {
-  background-image: url("/img-about/sarah-herse.jpg");
+  background-image: url("../img-about/sarah-herse.jpg");
 }
 
 .satisfied-costumers-cont {
@@ -57,7 +57,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/img-about/fitsix-4-bright_LIQo.webp");
+  background-image: url("../img-about/fitsix-4-bright_LIQo.webp");
   background-color: rgb(0, 0, 0, 0.8);
   background-blend-mode: darken;
   background-size: cover;
