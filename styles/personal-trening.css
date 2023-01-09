@@ -3,7 +3,7 @@ body {
 }
 
 .container-personal-trening {
-  background: url("../img-personal-trening/NillumbikShireCouncil_RevivePT_222.jpg");
+  background-image: url("../img-personal-trening/NillumbikShireCouncil_RevivePT_222.jpg");
   background-blend-mode: darken;
   background-color: rgb(0, 0, 0, 0.5);
   background-size: cover;
@@ -67,7 +67,7 @@ body {
 .healthy-diet-cont {
   width: 100vw;
   height: 600px;
-  background: url("../img-personal-trening/food-scaled.jpg");
+  background-image: url("../img-personal-trening/food-scaled.jpg");
   background-color: rgb(0, 0, 0, 0.5);
   background-blend-mode: darken;
   background-size: cover;
@@ -96,7 +96,7 @@ body {
 .protein-img {
   width: 700px;
   height: 500px;
-  background: url("../img-personal-trening/6-types-protein_2048x.webp");
+  background-image: url("../img-personal-trening/6-types-protein_2048x.webp");
   background-size: cover;
   background-position: center;
   background-color: rgb(0, 0, 0, 0.5);
